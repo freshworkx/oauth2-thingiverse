@@ -26,7 +26,7 @@ Or add the following to your `composer.json` file.
 ```json
 {
     "require": {
-        "freshworkx/oauth2-thingiverse": "^0.1"
+        "freshworkx/oauth2-thingiverse": "^0.0.1"
     }
 }
 ```
