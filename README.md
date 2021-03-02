@@ -1,4 +1,6 @@
 # Thingiverse Provider for OAuth 2.0 Client
+[![GitHub release](https://img.shields.io/github/tag/freshworkx/oauth2-thingiverse.svg)](https://github.com/freshworkx/oauth2-thingiverse/blob/main/tags)
+[![GitHub license](https://img.shields.io/github/license/freshworkx/oauth2-thingiverse.svg)](https://github.com/freshworkx/oauth2-thingiverse/blob/main/LICENSE)
 
 This package provides Thingiverse OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
