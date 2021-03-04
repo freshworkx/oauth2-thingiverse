@@ -10,7 +10,7 @@ class ThingiverseResourceOwnerTest extends TestCase
     /**
      * @var ThingiverseResourceOwner
      */
-    protected ThingiverseResourceOwner $user;
+    protected $user;
 
     protected function setUp(): void
     {

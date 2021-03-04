@@ -32,14 +32,14 @@ class Thingiverse extends AbstractProvider
      *
      * @var string $domain
      */
-    public string $domain = 'https://www.thingiverse.com';
+    public $domain = 'https://www.thingiverse.com';
 
     /**
      * Api domain
      *
      * @var string $apiDomain
      */
-    public string $apiDomain = 'https://api.thingiverse.com';
+    public $apiDomain = 'https://api.thingiverse.com';
 
     /**
      * Get authorization url to begin OAuth flow

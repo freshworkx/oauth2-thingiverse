@@ -12,7 +12,7 @@ class ThingiverseTest extends TestCase
 {
     use QueryBuilderTrait;
 
-    protected Thingiverse $provider;
+    protected $provider;
 
     protected function setUp(): void
     {
