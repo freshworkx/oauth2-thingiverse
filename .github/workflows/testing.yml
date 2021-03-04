@@ -1,0 +1,38 @@
+name: Coding Standards and Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-18.04
+    strategy:
+      matrix:
+        php-versions: [ '7.3', '7.4', '8.0' ]
+
+    steps:
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-versions }}
+          extensions: json
+          coverage: xdebug
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Validate composer.json
+        run: composer validate --strict
+
+      - name: Install dependencies
+        run: composer update --prefer-dist --no-progress
+
+      - name: Run phpcs fixer
+        run: ./vendor/bin/phpcs src --standard=psr2 -sp
+
+      - name: Run phpunit test suite
+        run: ./vendor/bin/phpunit
