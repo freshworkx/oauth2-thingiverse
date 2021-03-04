@@ -18,7 +18,7 @@
     "thingiverse"
   ],
   "require": {
-    "php": "^5.6 || ^7.0 || ^8.0",
+    "php": "^7.3 || ^8.0",
     "league/oauth2-client": "^2.4"
   },
   "require-dev": {
