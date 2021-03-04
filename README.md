@@ -8,12 +8,9 @@ This package provides Thingiverse OAuth 2.0 support for the PHP League's [OAuth 
 
 The following versions of PHP are supported.
 
-* PHP 5.6
-* PHP 7.0
-* PHP 7.1
-* PHP 7.2
 * PHP 7.3
 * PHP 7.4
+* PHP 8.0
 
 ## Installation
 
