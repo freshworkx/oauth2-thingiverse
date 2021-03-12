@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.0.7 - March 12, 2021
+- move coverage report to codecov
+
 ## 0.0.5 - March 4, 2021
 
 - Bugfix release.
