@@ -6,6 +6,11 @@
 
 This package provides Thingiverse OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
+## Hint
+
+This package is archived, becomes a read-only repository. As a third-party provider this is removed from [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client) in favor of the new OpenAPI from Ultimaker.
+See [PR](https://github.com/thephpleague/oauth2-client/pull/1021)
+
 ## Requirements
 
 The following versions of PHP are supported.
